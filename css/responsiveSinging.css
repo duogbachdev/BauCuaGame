@@ -1,0 +1,110 @@
+@media (max-width: 767px) { 
+    .row {
+        padding: 0;
+    }
+    .c-12 {
+        max-width: unset;
+    }
+    .container {
+        padding: unset;
+        margin-top: unset !important;
+        background-color: unset;
+        box-shadow: unset;
+    }
+    .header {
+        border-radius: 0;
+    }
+    .lights,
+    .lights::after,
+    .lights::before {
+        height: 15px;
+        width: 15px;
+    }
+    .heading {
+        text-align: center;
+    }
+    .signing-form {
+        width: unset;
+    }
+    .leave-state,
+    .leave-state span {
+        font-size: 20px;
+        line-height: unset;
+    }
+}
+@media (min-width: 768px ) and (max-width: 991px) { 
+    .row {
+        padding: 0;
+    }
+    .container {
+        margin-top: unset !important;
+        background-color: unset;
+        box-shadow: unset;
+    }
+    .header {
+        height: 100px;
+        border-radius: 0;
+    }
+    .signin-state,
+    .signup-state {
+        width: 140px;
+        height: 50px;
+        font-size: 28px;
+    }
+    .lights,
+    .lights::after,
+    .lights::before {
+        height: 35px;
+        width: 35px;
+    }
+    .avatar-user {
+        margin-top: 40px;
+        height: 400px;
+        width: 400px;
+    }
+    .heading {
+        margin: 30px 0;
+        font-size: 46px;
+    }
+    .signing-form {
+        width: 700px;
+    }
+    .input {
+        height: 70px;
+        font-size: 36px;
+        padding: 20px 70px;
+        border-radius: 20px;
+        margin-bottom: 36px;
+    }
+    .form-group i {
+        font-size: 36px;
+        top: 36px;
+        left: 22px;
+    }
+    .btn-submit button {
+        height: 85px;
+        font-size: 36px;
+        border-radius: 20px;
+        margin-bottom: 36px;
+    }
+    .btn-submit-iclound button {
+        font-size: 32px;
+        height: 80px;
+        border-radius: 20px;
+        margin-bottom: 36px;
+    }
+    .btn-submit-iclound i {
+        font-size: 36px;
+        top: 18px;
+        left: 36px;
+    }
+    .leave-state {
+        font-size: 36px;
+    }
+    .leave-state span {
+        font-size: 36px;
+        margin-left: 8px;
+        line-height: unset;
+    }
+}
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/styleSigning.css">
+    <link rel="stylesheet" href="./fornt/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./css/responsiveSinging.css">
+    <link rel="shortcut icon" href="./img/gamepad.png" type="image/x-icon">
+    <title>BẦU CUA TÔM CÁ - ĐĂNG NHẬP - ĐĂNG KÍ</title>
+</head>
+
+<body>
+    <div class="grid wide">
+        <div class="row">
+            <div class="col l-6 l-o-3 m-12 c-12 container">
+                <div class="header">
+                    <div class="lights"></div>
+                    <div class="signin-state signing-active"><span>Đăng nhập</span> </div>
+                    <div class="signup-state"><span>Đăng ký</span> </div>
+                </div>
+                <div class="content">
+                    <div class="signing">
+                        <div class="sign-in-container">
+                            <div class="avatar-user"></div>
+                            <h1 class="heading">Đăng nhập tài khoản của bạn</h1>
+
+                            <form class="signing-form" id="sign-in" action="">
+                                <div class="form-group">
+                                    <i class="fa-solid fa-user-tie"></i>
+                                    <input type="text" name="gmail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                                        placeholder="Gmail" required class="input">
+                                </div>
+
+                                <div class="form-group">
+                                    <i class="fa-solid fa-key"></i>
+                                    <input type="password" name="password" placeholder="Mật khẩu" required
+                                        class="input">
+                                </div>
+
+                                <div class="btn-submit">
+                                    <button type="submit">ĐĂNG NHẬP</button>
+                                </div>
+
+                                <div class="btn-submit-iclound">
+                                    <button type="reset"><i class="fa-brands fa-apple"></i>ĐĂNG NHẬP VỚI ICLOUD</button>
+                                </div>
+
+                                <div class="leave-state">
+                                    <p>Bạn chưa có tài khoản? </p><span class="leave-to-sign-up"> Đăng ký ngay</span>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="sign-up-container active">
+                            <div class="avatar-user"></div>
+                            <h1 class="heading">Đăng kí tài khoản mới</h1>
+                            <form class="signing-form" id="sign-up" action="">
+                                <div class="form-group">
+                                    <i class="fa-solid fa-user-tie"></i>
+                                    <input type="text" name="name" placeholder="Tên" required class="input">
+                                </div>
+
+                                <div class="form-group">
+                                    <i class="fa-regular fa-envelope"></i>
+                                    <input type="text" name="gmail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                                        placeholder="Gmail" required class="input">
+                                </div>
+
+                                <div class="form-group">
+                                    <i class="fa-solid fa-key"></i>
+                                    <input type="text" name="password" placeholder="Mật khẩu" required class="input">
+                                </div>
+
+                                <div class="btn-submit">
+                                    <button type="submit">ĐĂNG KÝ</button>
+                                </div>
+
+                                <div class="leave-state">
+                                    <p>Bạn đã có tài khoản?</p><span class="leave-to-sign-in">Đăng nhập</span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="./Javascript/signing.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+body {
+    background-color: #f9f9f9;
+}
+.active {
+    display: none !important;
+}
+.signing-active {
+    border: 1px solid #f9f9f9;
+    background-color: #ebebeb;
+    color: #524f4f !important;
+    border-radius: 20px;
+}
+.content {
+    /* height: 590px; */
+    padding: 0;
+}
+.container {
+    height: 90vh;
+    margin-top: 30px !important;
+    border-radius: 15px;
+    box-shadow:  10px 10px 20px #b1b1b1,
+             -10px -10px 20px #b1b1b1;
+    background-color: #fff;
+    padding: 0;
+    animation: fadeInGrowth ease-in 0.3s;
+    transition: all .2s linear;
+}
+.heading {
+    margin: 15px;
+}
+@keyframes fadeInGrowth {
+    from {
+        opacity: 0;
+        transform: scale(0.6);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+/* Header */
+.header {
+    background-color: #ebebeb;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.signin-state,
+.signup-state {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    color: #c1c1c1;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20px;
+    font-size: 14px;
+    margin: 10px;
+    padding: 2px 6px;
+    cursor: pointer;
+}
+.lights {
+    position: absolute;
+    left: 8%;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: block;
+}
+.lights::after {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: green;
+    left: -160%;
+}
+.lights::before {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: red;
+    right: -160%;
+}
+.avatar-user {
+    margin-top: 20px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+    padding: 20px;
+    background: url('../img/avatar-user.png')  top center / cover no-repeat;
+}
+.sign-in-container, 
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeInGrowth ease-in 0.3s;
+    transition: all .2s linear;
+}
+.signing-form {
+    width: 440px;
+}
+.tile {
+    align-self: flex-start;
+    font-size: 18px;
+    color: #243762;
+    font-weight: 600;
+    margin: 18px 0;
+}
+.form-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.form-group i {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    color: #b1b1b1;
+}
+.input {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 38px;
+    border-radius: 10px;
+    padding: 5px 35px;
+    font-size: 16px;
+  /* width: 100%;
+  height:35px;
+  padding:5px 7px 5px 15px;
+  border-radius: var(--primany-radius);
+  background:#fff;
+  color:#666;
+  border:2px solid #ddd;
+  margin-bottom: 20px; */
+}
+.leave-state {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.leave-state span {
+    margin-left: 5px;
+    font-size: 16px;
+    line-height: 1.2rem;
+    color: rgb(27, 27, 136);
+    transition: all .1s linear;
+}
+.leave-state span:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.btn-submit-iclound button {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #000;
+    transition: all .1s linear;
+    position: relative;
+}
+.btn-submit-iclound i {
+    position: absolute;
+    top: 9px;
+    left: 14px;
+    font-size: 20px;
+}
+.btn-submit-iclound button:hover {
+    transform: scale(1.03);
+}
+.btn-submit button{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #7addbf;
+    transition: all .1s linear;
+}
+.btn-submit button:hover {
+    transform: scale(1.03);
+}

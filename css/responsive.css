@@ -1,0 +1,153 @@
+@media (min-width: 768px ) and (max-width: 991px) { 
+    .row {
+        margin: 0;
+    }
+    .container {
+        margin: 0 !important;
+        border-radius: unset;
+        box-shadow: unset;
+        background-color: unset;
+    }
+    .header {
+        height: 100px;
+        border-radius: unset;
+    }
+    .lights {
+        left: 6%;
+    }
+    .lights,
+    .lights::after,
+    .lights::before {
+        height: 34px;
+        width: 34px;
+    }
+    .out-game {
+        left: 16%;
+    }
+    .out-game a i {
+        font-size: 55px;
+        margin-left: 18px;
+    }
+    .name-game {
+        height: 66px;
+        width: 380px;
+    }
+    .name-game span {
+        font-size: 45px;
+    }
+    .info .avata,
+    .info .plus,
+    .info .coin-user,
+    .coin-icon {
+        font-size: 55px !important;
+    }
+    .control-coin .coin {
+        font-size: 34px;
+    }
+    .control-container {
+        background-color: unset;
+        display: flex;
+        justify-content: space-around;
+    }
+    .item:hover {
+        transform: unset;
+    }
+    .item .control-coin {
+        height: 140px;
+    }
+    .increase, .reduce {
+        width: 100px;
+        height: 90px;
+        font-size: 36px;
+        border-radius: 15px;
+    }
+    #dice1, #dice2, #dice3 {
+        margin-top: 30px;
+        position: unset;
+        height: 340px;
+        width: 340px;
+    }
+    .spin {
+        height: 150px;
+        width: 250px;
+        text-align: center;
+        border-radius: 20px;
+        padding-top: 34px;
+        font-size: 30px;
+    }
+    .toast {
+        min-width: 745px;
+        height: 160px;
+        right: 22%;
+        top: 5%;
+    }
+    .icon-conditon-toast {
+        font-size: 95px;
+        padding: 0 35px;
+    }
+    .inner-container p:first-child {
+        font-size: 44px;
+    }
+    .inner-container p:last-child{
+        font-size: 36px;
+    }
+    .toast-control {
+        height: 160px;
+        width: 160px;
+    }
+    .toast-control div {
+        font-size: 40px;
+    }
+}
+@media (min-width: 320px ) and (max-width: 991px) { 
+    .row {
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        margin: 0 !important;
+        border-radius: unset;
+        box-shadow: unset;
+        background-color: unset;
+    }
+    .header {
+        height: 150px;
+        border-radius: unset;
+    }
+    .lights,
+    .lights::after,
+    .lights::before {
+        height: 44px;
+        width: 44px;
+    }
+    .out-game {
+        left: 18%;
+    }
+    .out-game a i {
+        font-size: 60px;
+        margin-left: 18px;
+    }
+    .name-game {
+        height: 66px;
+        width: 380px;
+    }
+    .name-game span {
+        font-size: 40px;
+    }
+    .info .avata,
+    .info .plus,
+    .info .coin-user,
+    .coin-icon {
+        font-size: 55px !important;
+    }
+    .info .plus {
+        margin-left: 15px;
+    }
+    .info .coin-user {
+        margin-right: 15px;
+    }
+    .item {
+        margin-bottom: 60px;
+    }
+}
+
